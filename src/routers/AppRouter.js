@@ -16,8 +16,6 @@ export const AppRouter = () => {
     return (
         <Router basename={process.env.PUBLIC_URL}>
             <div>
-                {/* <Navbar /> */}
-
                 <Switch>
                     <PublicRoute exact path="/login" component={LoginScreen} isAuthenticated={user.logged}/>
                     <PrivateRoute path="/" component={ DashboardRoutes } isAuthenticated={user.logged}/>

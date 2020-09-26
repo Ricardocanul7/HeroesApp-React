@@ -2,6 +2,7 @@
   "name": "heroes-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ricardocanul7.github.io/HeroesApp-React/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
